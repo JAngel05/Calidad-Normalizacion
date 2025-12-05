@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_ Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_ Productos.Designer.cs">
+      <DependentUpon>Add_ Productos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inicio_Sesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +59,9 @@
       <DependentUpon>Inicio_Sesion.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Add_ Productos.resx">
+      <DependentUpon>Add_ Productos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inicio_Sesion.resx">
       <DependentUpon>Inicio_Sesion.cs</DependentUpon>
     </EmbeddedResource>
